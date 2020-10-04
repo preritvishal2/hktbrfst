@@ -1,20 +1,14 @@
 /*                          Application : Extension changer for multiple files ( windows )
-
                             features : supports extension changing of multiple files at once
                                      : change up to 50 files in one execution
-
                             version :                   YY.MM.ver
                                       initial release : 20.08.01Beta   ( current )
-
                             This program is an open-source work of an individual programmer 'illogical'.
                             Around 30% of part is copied/inspired from StackOverflow.
                             https://stackoverflow.com/questions/51804567/c-writing-readdir-to-char-array-variable/51804792
                             You're welcomed to test it's vulnerability and suggest for improvements.
-
                             Suggest and mail me at preritvishal3@gmail.com
-
                             Warm regards : illogical AKA Prerit Vishal
-
 */
 #include <stdio.h>
 #include <stdlib.h>
@@ -103,7 +97,7 @@ void enter_extension(void){
 void rename_files(void){
   int i = 0;
     char temp[500]={};
-    char temp1[5] = {};
+    char temp1[20] = {};    //low space causes overflow
 
     directory_pointer = opendir(default_path);
     while ((read_dir_ptr = readdir(directory_pointer)))
