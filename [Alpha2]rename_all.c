@@ -113,8 +113,8 @@ void rename_files(void){
             strcat(temp,temp1);
             strcat(temp,extension);
 
-            printf("\nTemp : %s",temp);
-            //getch();
+           // printf("\nTemp : %s",temp);
+           // hid it to reduce console output
             ++i;
 
           // activating the code below this will show real effect on the path you entered
