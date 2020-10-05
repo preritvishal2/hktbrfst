@@ -7,8 +7,6 @@
                             Around 30% of part is copied/inspired from StackOverflow.
                             https://stackoverflow.com/questions/51804567/c-writing-readdir-to-char-array-variable/51804792
                             You're welcomed to test it's vulnerability and suggest for improvements.
-                            Suggest and mail me at preritvishal3@gmail.com
-
 */
 #include <stdio.h>
 #include <stdlib.h>
