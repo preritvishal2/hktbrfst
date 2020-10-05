@@ -8,7 +8,7 @@
                             https://stackoverflow.com/questions/51804567/c-writing-readdir-to-char-array-variable/51804792
                             You're welcomed to test it's vulnerability and suggest for improvements.
                             Suggest and mail me at preritvishal3@gmail.com
-                            Warm regards : illogical AKA Prerit Vishal
+
 */
 #include <stdio.h>
 #include <stdlib.h>
