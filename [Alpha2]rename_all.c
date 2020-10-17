@@ -1,7 +1,7 @@
 /*                          Application : Extension changer for multiple files ( windows )
                             features : supports extension changing of multiple files at once
                                      : change up to 50 files in one execution
-                            version :                   YY.MM.ver
+                            version :                   YY.MM.version
                                       initial release : 20.08.01Beta   ( current )
                             This program is an open-source work of an individual programmer 'illogical'.
                             Around 30% of part is copied/inspired from StackOverflow.
